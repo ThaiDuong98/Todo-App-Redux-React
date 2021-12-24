@@ -42,7 +42,8 @@ const todoListReducer = (state = initSate, action) => {
             const resultDeleteTodo = deteteTodos.filter(todo => todo.id !== action.payload)
             return {
                 ...state,
-                todoList: resultDeleteTodo
+                todoList: resultDeleteTodo,
+                updatedTodo: undefined
             }
         case 'todoList/setEditTodo':
             const editTodos = [...state.todoList]

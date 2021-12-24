@@ -21,6 +21,7 @@ export default function Todo({ name, priority,completed, id }) {
 
   const handleDeleteTodo = () => {
     dispatch(deleteTodo(id))
+    
   }
 
   const handleSetEditTodo = () => {

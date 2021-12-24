@@ -21,6 +21,9 @@ export default function TodoFrom() {
             //console.log('Update value: ', setUpdatedtodo.name)
             setTodoInput(setUpdatedtodo.name)
             setPriority(setUpdatedtodo.priority)
+        }else{
+            setPriority('Medium')
+            setTodoInput('')
         }
     },[setUpdatedtodo])
    
