@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Todo-App-Redux-React/static/css/main.b8d7e06f.css",
+    "main.js": "/Todo-App-Redux-React/static/js/main.99e7bacb.js",
+    "index.html": "/Todo-App-Redux-React/index.html",
+    "main.b8d7e06f.css.map": "/Todo-App-Redux-React/static/css/main.b8d7e06f.css.map",
+    "main.99e7bacb.js.map": "/Todo-App-Redux-React/static/js/main.99e7bacb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8d7e06f.css",
+    "static/js/main.99e7bacb.js"
+  ]
+}
